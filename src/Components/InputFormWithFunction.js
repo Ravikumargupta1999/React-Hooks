@@ -8,6 +8,14 @@ export default function Input() {
     useEffect(() =>{
         document.title = name + "" + lastName;
     },[lastName])  // empty array will make it act like only componentDidMount
+
+    useEffect(() =>{
+        let timer = setInterval(()=>{
+            console.log("Window Widht : ",window.innerWidth);
+        },2000)
+
+        return(clearInterval(timer));
+    })
     return (
         <>
             <div className="section">
