@@ -28,7 +28,9 @@
   max-width: 60%;
 
 }
+
 .input{
+  /* text-align: center; */
   min-height: 34px;
   width: 80%;
   padding-top: 7px;

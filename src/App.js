@@ -1,4 +1,4 @@
-import Input from "./Components/InputWithClass";
+import Input from "./Components/InputFormWithClass";
 
 function App() {
   return (
